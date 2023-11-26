@@ -1,0 +1,42 @@
+.App {
+  
+  text-align: center;
+  background-color: rgb(255, 144, 103);
+  height: 100vh;
+}
+.input {
+  border: none;
+  border-radius: 10px;
+  background: white;
+  width: 95%;
+  text-align: center;
+}
+.container {
+  border-radius: 20px;
+  border: 2px solidred;
+  background-color: rgb(129, 83, 255);
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.button {
+  background-color: rgb(255, 99, 42);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+}
+.select {
+  display: inline-block;
+  border: none;
+  text-align: center;
+  border-radius: 3px;
+}
+.tipbox {
+  display: flex;
+  flex-direction: row;
+}
